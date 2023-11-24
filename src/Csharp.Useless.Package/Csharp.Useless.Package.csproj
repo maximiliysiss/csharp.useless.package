@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>Csharp.Useless.Package</Title>
+    <PackageTags>useless csharp</PackageTags>
+    <Description>Useless package for csharp</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/maximiliysiss/csharp.useless.package</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/maximiliysiss/csharp.useless.package</RepositoryUrl>
+    <PackageId>Csharp.Useless.Package</PackageId>
+    <Authors>maximiliysiss</Authors>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
